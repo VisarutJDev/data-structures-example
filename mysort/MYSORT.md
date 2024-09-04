@@ -46,8 +46,8 @@ Worst Case: 𝑂(𝑛^2)
     Occurs when the pivot selection consistently results in the most unbalanced partitions (e.g., choosing the smallest or largest element as the pivot in an already sorted array).
     The depth of the recursion tree becomes 𝑛 leading to n(n−1)/2 comparisons.
 
-Algorithm | Best Case | Worst Case | Stability | In-Place | Use Cases 
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Insertion Sort | O(n) | O(n^2) | Stable | Yes | Small datasets, nearly sorted data 
-Merge Sort | O(nlogn) | O(nlogn) | Stable | No | Large datasets, requires stable sorting 
-Quick Sort | O(nlogn) | O(n^2) | Unstable | Yes | General-purpose, often fastest in practice 
+| Algorithm | Best Case | Worst Case | Stability | In-Place | Use Cases | 
+| --- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |--- | 
+| Insertion Sort | O(n) | O(n^2) | Stable | Yes | Small datasets, nearly sorted data  | 
+| Merge Sort | O(nlogn) | O(nlogn) | Stable | No | Large datasets, requires stable sorting  | 
+| Quick Sort | O(nlogn) | O(n^2) | Unstable | Yes | General-purpose, often fastest in practice |  
